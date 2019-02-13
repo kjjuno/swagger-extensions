@@ -1,2 +1,2 @@
 # swagger-extensions
-A collextion of swagger extensions
+A collection of swagger extensions
