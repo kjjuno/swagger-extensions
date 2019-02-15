@@ -9,8 +9,18 @@ paths:
       ...
       deprecated: true
       x-replaced-by:
-        path: '/v2/user'
-        verb: post
+        - description: some description asdlfkj
+          path: '/v2/user'
+          verb: post
+        - description: some description asdlfkj
+          path: '/v2/user'
+          verb: post
+    get:
+       ...
+      x-replaced-by:
+        description: some description asdlfkj
+          path: '/v2/user'
+          verb: post
   /v2/user:
     post:
       ...
